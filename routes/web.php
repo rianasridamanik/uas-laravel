@@ -7,7 +7,10 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about', [
+        "name" => "Rian Asri Damanik",
+        "email" => "rianasridamanik0@gmail.com"
+    ]);
 });
 
 Route::get('/blog', function () {

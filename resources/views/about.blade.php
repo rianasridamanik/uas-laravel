@@ -9,7 +9,7 @@
 </head>
 <body>
      <h1>Halaman About</h1>
-     <h3>Rian Asri Damanik</h3>
-     <p>rianasridamanik@gmail.com</p>
+     <h3><?= $name; ?></h3>
+     <p><?= $email; ?></p>
 </body>
 </html>
